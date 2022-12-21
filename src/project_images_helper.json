@@ -16,7 +16,9 @@
     "Ballantyne Guest Bedroom",
     "Uptown Kitchen",
     "Dilworth Powder Room",
-    "BCC Bar:Lounge"
+    "BCC Bar:Lounge",
+    "Weddington Master Bedroom",
+    "Ballantyne home office"
   ],
   "Ballantyne Living Room": [
     "home-design1.jpeg",
@@ -112,5 +114,16 @@
   "BCC Bar:Loung":[
     "home-design1.jpeg",
     "home-design2.jpeg"
+  ],
+  "Weddington Master Bedroom":[
+    "IMG_0094.jpg",
+    "IMG_0101.jpg",
+    "IMG_0103.jpg",
+    "IMG_0107.jpg"
+  ],
+  "Ballantyne home office":[
+    "IMG_6892.jpg",
+    "IMG_6897.jpg",
+    "IMG_6898.jpg"
   ]
 }
