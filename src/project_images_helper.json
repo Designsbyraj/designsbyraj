@@ -1,0 +1,116 @@
+{
+  "projects": [
+    "Ballantyne Living Room",
+    "Ballantyne Sitting Room",
+    "South Park Sitting Room",
+    "South End Sitting Area",
+    "South Park Kitchen",
+    "South Park Living Room",
+    "South Park Family Room",
+    "South Park Dining Room",
+    "Ballantyne Dining Room",
+    "Fort Mill living Room",
+    "Ballantyne Powder Room",
+    "Ballantyne Kitchen",
+    "Fort Mill Teen Bedroom",
+    "Ballantyne Guest Bedroom",
+    "Uptown Kitchen",
+    "Dilworth Powder Room",
+    "BCC Bar:Lounge"
+  ],
+  "Ballantyne Living Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg",
+    "home-design6.jpeg",
+    "home-design7.jpeg",
+    "home-design8.jpeg"
+  ],
+  "Ballantyne Sitting Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg",
+    "home-design6.jpeg",
+    "home-design7.jpeg",
+    "home-design8.jpeg",
+    "home-design9.jpeg"
+  ],
+  "South Park Sitting Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg"
+  ],
+  "South End Sitting Area": [
+    "home-design1.jpeg",
+    "home-design2.jpeg"
+  ],
+  "South Park Kitchen": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg"
+  ],
+  "South Park Living Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg"
+  ],
+  "South Park Family Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg"
+  ],
+  "South Park Dining Room": [
+    "home-design1.jpeg",
+    "home-design5.jpeg",
+    "home-design4.jpeg",
+    "home-design3.jpeg",
+    "home-design2.jpeg"
+  ],
+  "Fort Mill living Room": [
+    "home-design.jpeg"
+  ],
+  "Ballantyne Powder Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg"
+  ],
+  "Ballantyne Kitchen":[
+    "home-design4.jpeg",
+    "home-design3.jpeg",
+    "home-design1.jpeg",
+    "home-design2.jpeg" 
+  ],
+  "Fort Mill Teen Bedroom":[
+    "home-design.jpeg"
+  ],
+  "Ballantyne Guest Bedroom":[
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design4.jpeg",
+    "home-design3.jpeg"
+  ],
+  "Uptown Kitchen":[
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg",
+    "home-design6.jpeg",
+    "home-design7.jpeg"
+  ],
+  "Dilworth Powder Room":[
+    "home-design.jpeg"
+  ],
+  "BCC Bar:Loung":[
+    "home-design1.jpeg",
+    "home-design2.jpeg"
+  ]
+}

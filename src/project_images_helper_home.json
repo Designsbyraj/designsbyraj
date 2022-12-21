@@ -1,0 +1,35 @@
+{
+  "projects": [
+    "Ballantyne Living Room",
+    "Ballantyne Sitting Room",
+    "South Park Sitting Room"
+  ],
+  "Ballantyne Living Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg",
+    "home-design6.jpeg",
+    "home-design7.jpeg",
+    "home-design8.jpeg"
+  ],
+  "Ballantyne Sitting Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg",
+    "home-design6.jpeg",
+    "home-design7.jpeg",
+    "home-design8.jpeg",
+    "home-design9.jpeg"
+  ],
+  "South Park Sitting Room": [
+    "home-design1.jpeg",
+    "home-design2.jpeg",
+    "home-design3.jpeg",
+    "home-design4.jpeg",
+    "home-design5.jpeg"
+  ]
+}

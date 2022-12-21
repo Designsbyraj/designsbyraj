@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ourwork_project:hover {
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 0.9;
+}
