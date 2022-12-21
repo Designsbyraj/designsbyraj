@@ -8,7 +8,7 @@ import logo from "../../assets/logo.webp";
 import { useNavigate, useLocation } from "react-router-dom";
 
 
-const pages = ["Home", "About", "Our Work", "Contact"];
+const pages = ["Home", "About", "Portfolio", "Contact"];
 const styles = {
   toolbar: {
     alignItems: "center",

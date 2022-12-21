@@ -13,7 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { isMobile } from "react-device-detect";
 import { useState } from "react";
 
-const pages = ["Home", "About", "Our Work", "Contact"];
+const pages = ["Home", "About", "Portfolio", "Contact"];
 const styles = {
   toolbar: {
     alignItems: "center",
