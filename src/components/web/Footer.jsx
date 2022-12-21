@@ -53,7 +53,7 @@ function App() {
               href="https://www.google.com/maps/search/?api=1&query=Charlotte%2C%20NC%2028277"
               style={{ textDecoration: "none", color: "black" }}
             >
-            Charlotte, NC 2877
+            Charlotte, NC 28277
             </a>
             </span>
         </Typography>
