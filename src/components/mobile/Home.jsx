@@ -1,6 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import Grid from "@mui/material/Grid";
-import image1 from "../../assets/bedroom.jpeg";
+import image1 from "../../assets/ballantyne-20sitting-20room.jpeg";
 import { Button, Paper, Typography } from "@mui/material";
 import { lineHeight } from "@mui/system";
 import ContactForm from "./ContactForm";
@@ -33,7 +33,7 @@ function App() {
     section1Image: {
       width: "-webkit-fill-available",
       height: "90vh",
-      objectFit: "fill",
+      objectFit: "cover",
     },
     section2: {
       margin: "20px 0px 40px 0px",
