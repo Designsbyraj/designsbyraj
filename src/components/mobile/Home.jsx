@@ -33,7 +33,7 @@ function App() {
     section1Image: {
       width: "-webkit-fill-available",
       height: "90vh",
-      objectFit: "cover",
+      objectFit: "fill",
     },
     section2: {
       margin: "20px 0px 40px 0px",
