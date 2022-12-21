@@ -129,7 +129,9 @@ function App() {
           <Grid item xs={12} style={styles.spacer36}>
             &nbsp;
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={4} onClick={()=>{
+             history("/About")
+          }}>
             <Button style={styles.button}>About</Button>
           </Grid>
 

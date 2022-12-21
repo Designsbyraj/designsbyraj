@@ -13,6 +13,7 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-phone-input-2/lib/high-res.css";
 import emailjs from "emailjs-com";
+import * as EmailValidator from 'email-validator';
 
 const containerStyle = {
   width: "100%",
@@ -37,13 +38,27 @@ function App() {
       customer_zip: zip,
     };
     if (!email || !name || !phone || !message || !zip) {
-      toast.info("Please enter all details and try gain🙂", {
+      toast.info("Please enter all details and try again 🙂", {
         position: "top-right",
         pauseOnHover: true,
         draggable: true,
         autoClose: false,
       });
-    } else {
+    } 
+    else if(!EmailValidator.validate(email)){
+        toast.info(
+          "Please enter a valid Email and try again 🙂",
+          {
+            position: "top-right",
+            pauseOnHover: true,
+            draggable: true,
+            autoClose: false,
+          }
+        );
+        return 0;
+      
+    }
+    else {
       emailjs
         .send(
           "service_82ylnsf",
@@ -288,6 +303,7 @@ function App() {
           Zip
         </Typography>
         <TextField
+          type="number"
           fullWidth
           size="small"
           placeholder="90210"

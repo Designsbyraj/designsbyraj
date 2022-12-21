@@ -15,6 +15,7 @@ import 'react-phone-input-2/lib/material.css';
 import 'react-phone-input-2/lib/high-res.css';
 import React,{useState} from "react";
 import { ToastContainer, toast } from "react-toastify";
+import * as EmailValidator from 'email-validator';
 
 
 const containerStyle = {
@@ -43,7 +44,19 @@ function App() {
     };
     if(!email || !name || !phone || !message || !zip){
       toast.info(
-        "Please enter all details and try gain🙂",
+        "Please enter all details and try again 🙂",
+        {
+          position: "top-right",
+          pauseOnHover: true,
+          draggable: true,
+          autoClose: false,
+        }
+      );
+      return 0;
+    }
+    if(!EmailValidator.validate(email)){
+      toast.info(
+        "Please enter a valid Email and try again 🙂",
         {
           position: "top-right",
           pauseOnHover: true,
@@ -298,6 +311,7 @@ function App() {
         onChange={(e)=>{setZip(e.target.value)}}
           value={zip}
           fullWidth
+          type="number"
           size="small"
           placeholder="90210"
           style={{ borderRadius: "20px" }}
