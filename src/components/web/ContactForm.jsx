@@ -47,7 +47,7 @@ function App() {
       emailjs
         .send(
           "service_82ylnsf",
-          "template_32e2h6i",
+          "template_uw0t69v",
           templateParams,
           "0BEVTa1lWt6tpJfFK"
         )
