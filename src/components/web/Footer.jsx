@@ -92,7 +92,7 @@ function App() {
         </Typography>
         <div style={{borderRadius:"5px"}}>
         <Typography style={styles.createdby}>
-          <div style={{backgroundColor:'black',width:"max-content",padding:"0.2% 2%",borderRadius:"5px",marginLeft:"44%"}}>
+          <div style={{backgroundColor:'black',width:"max-content",padding:"0.2% 2%",borderRadius:"5px",marginLeft:"42%"}}>
           <a style={{textDecoration:"none", color:"black"}} href="https://karthikdattu.com/">
           <div
             class="one"
