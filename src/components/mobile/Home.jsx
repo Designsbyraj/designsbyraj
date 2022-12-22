@@ -1,6 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import Grid from "@mui/material/Grid";
-import image1 from "../../assets/ballantyne-20sitting-20room.jpeg";
+import image1 from "../../assets/IMG_126.jpeg";
 import { Button, Paper, Typography } from "@mui/material";
 import { lineHeight } from "@mui/system";
 import ContactForm from "./ContactForm";
