@@ -20,7 +20,7 @@ import * as EmailValidator from 'email-validator';
 
 const containerStyle = {
   width: "100%",
-  height: "400px",
+  height: "200px",
 };
 
 function App() {

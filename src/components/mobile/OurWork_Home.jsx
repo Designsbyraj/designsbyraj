@@ -112,7 +112,7 @@ function App() {
                 component="img"
                 style={{
                   width: "100%",
-                  height: "40vh",
+                  height: "25vh",
                   objectFit: "cover",
                 }}
                 image={require(`../../assets/Projects/${project}.jpeg`)}

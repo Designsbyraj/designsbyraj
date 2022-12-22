@@ -100,9 +100,9 @@ function App() {
           style={styles.section2container}
           justifyContent="center"
         >
-          <Grid item xs={12} style={styles.spacer120}>
+          {/* <Grid item xs={12} style={styles.spacer120}>
             &nbsp;
-          </Grid>
+          </Grid> */}
           <Grid item xs={12}>
             <Typography>
               <h1 style={styles.section2Typ1}>WHO WE ARE</h1>
@@ -136,9 +136,9 @@ function App() {
             <Button style={styles.button}>About</Button>
           </Grid>
 
-          <Grid item xs={12} style={styles.spacer120}>
+          {/* <Grid item xs={12} style={styles.spacer120}>
             &nbsp;
-          </Grid>
+          </Grid> */}
         </Grid>
       </Grid>
       <Grid item xs={12}>
