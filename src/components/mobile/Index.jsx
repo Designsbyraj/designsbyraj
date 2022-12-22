@@ -21,7 +21,7 @@ function Index() {
       {location.pathname == "/About" ?
         <About />
       : null}
-      {location.pathname == "/OurWork" ?
+      {location.pathname == "/Portfolio" ?
         <OurWork />
       : null}
       {location.pathname == "/Project" ?
