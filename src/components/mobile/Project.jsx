@@ -73,7 +73,7 @@ function App() {
                 (image, key) => (
                   <React.Fragment key={key}>
                     <Typography style={styles.body}>
-                      Ballantyne Living Room
+                      {location.state.project_name}
                     </Typography>
                     <img
                       style={{
