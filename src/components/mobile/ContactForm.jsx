@@ -287,8 +287,7 @@ function App() {
           onChange={(e)=>{setPhone(e)}}
           inputProps={{
             name: '',
-            required: true,
-            autoFocus: true
+            required: true
           }}
           inputStyle={{
             width:"100%"

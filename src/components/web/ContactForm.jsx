@@ -284,7 +284,6 @@ function App() {
           inputProps={{
             name: "",
             required: true,
-            autoFocus: true,
           }}
           inputStyle={{
             width: "100%",
