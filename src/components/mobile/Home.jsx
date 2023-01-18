@@ -1,6 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import Grid from "@mui/material/Grid";
-import image1 from "../../assets/IMG_126.jpeg";
+import image1 from "../../assets/bedroom.jpeg";
 import { Button, Paper, Typography } from "@mui/material";
 import { lineHeight } from "@mui/system";
 import ContactForm from "./ContactForm";
@@ -8,11 +8,11 @@ import Carousel from "react-material-ui-carousel";
 import img2 from "../../assets/IMG_126.jpeg";
 import StarIcon from "@mui/icons-material/Star";
 import React from "react";
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import OurWok from "./OurWork_Home";
-import Reviews from "../../Reviews_helper.json"
-
+import Reviews from "../../Reviews_helper.json";
+import video from "../../assets/homevideo.mp4";
 
 function App() {
   const history = useNavigate();
@@ -33,7 +33,7 @@ function App() {
     section1Image: {
       width: "-webkit-fill-available",
       height: "90vh",
-      objectFit: "cover",
+      objectFit: "fill",
     },
     section2: {
       margin: "20px 0px 40px 0px",
@@ -87,8 +87,6 @@ function App() {
     },
   };
 
- 
-
   return (
     <Grid container>
       <Grid item xs={12} style={styles.section1}>
@@ -130,9 +128,13 @@ function App() {
           <Grid item xs={12} style={styles.spacer36}>
             &nbsp;
           </Grid>
-          <Grid item xs={4} onClick={()=>{
-            history("/About")
-          }}>
+          <Grid
+            item
+            xs={4}
+            onClick={() => {
+              history("/About");
+            }}
+          >
             <Button style={styles.button}>About</Button>
           </Grid>
 
@@ -165,20 +167,24 @@ function App() {
             item
             xs={12}
             sm={12}
-            style={{ backgroundColor: "white", padding: "6vh 0vh",transform: "translate3d(10px, 10px, 10px)",
-            opacity: 0.8 }}
+            style={{
+              backgroundColor: "white",
+              padding: "6vh 0vh",
+              transform: "translate3d(10px, 10px, 10px)",
+              opacity: 0.8,
+            }}
           >
             <Carousel
-            navButtonsAlwaysVisible={true}
-            navButtonsProps={{      
-              style: {
-                  backgroundColor: 'transparent',
+              navButtonsAlwaysVisible={true}
+              navButtonsProps={{
+                style: {
+                  backgroundColor: "transparent",
                   borderRadius: 0,
-                  color:"black"
-              }
-          }} 
-            NextIcon={<KeyboardArrowRightIcon/>}
-            PrevIcon={<KeyboardArrowLeftIcon/>}
+                  color: "black",
+                },
+              }}
+              NextIcon={<KeyboardArrowRightIcon />}
+              PrevIcon={<KeyboardArrowLeftIcon />}
             >
               {Reviews.map((review, key) => (
                 <Paper
@@ -188,7 +194,7 @@ function App() {
                     height: "65vh",
                     boxShadow: "none",
                     border: "0px",
-                    padding:"0vh 4vh 0px 4vh"
+                    padding: "0vh 5vh 0px 5vh",
                   }}
                 >
                   <Typography>
@@ -198,7 +204,7 @@ function App() {
                   </Typography>
                   <Typography
                     style={{
-                      fontSize: "16px",
+                      fontSize: "13px",
                       fontStyle: "italic",
                       color: "#444444",
                     }}
@@ -208,7 +214,7 @@ function App() {
                   <br></br>
                   <Typography
                     style={{
-                      fontSize: "16px",
+                      fontSize: "12px",
                       fontStyle: "italic",
                       color: "#444444",
                     }}
@@ -221,7 +227,7 @@ function App() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={12} style={{ marginBottom: "6vh",padding:"0% 5%" }}>
+      <Grid item xs={12} style={{ marginBottom: "6vh", padding: "0% 5%" }}>
         <ContactForm />
       </Grid>
     </Grid>

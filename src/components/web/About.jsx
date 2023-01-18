@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Grid from "@mui/material/Grid";
-import img1 from "../../assets/IMG_0499.jpg";
+import img1 from "../../assets/About.jpeg";
 import img2 from "../../assets/IMG_2161.jpg";
 import { Button, Typography } from "@mui/material";
 import React from "react";

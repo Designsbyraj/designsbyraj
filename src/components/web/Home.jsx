@@ -12,6 +12,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import OurWork from "./OurWork_Home";
 import Reviews from "../../Reviews_helper.json"
+import video from "../../assets/homevideo.mp4";
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
     section1Image: {
       width: "-webkit-fill-available",
       height: "65vh",
-      objectFit: "fill",
+      //objectFit: "fill",
     },
     section2: {
       margin: "40px 0px 40px 0px",
@@ -91,7 +92,10 @@ function App() {
   return (
     <Grid container>
       <Grid item xs={12} style={styles.section1}>
-        <img src={image1} style={styles.section1Image}></img>
+         <img src={image1} style={styles.section1Image}></img>
+        {/* <video autoplay={true} style={styles.section1Image} loop>
+          <source src={video} type="video/mp4" />
+        </video> */}
       </Grid>
       <Grid item xs={12} style={styles.section2}>
         <Grid
