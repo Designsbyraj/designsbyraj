@@ -9,16 +9,12 @@ import Reviews from "../../Reviews_helper.json"
 
 const styles = {
   heading: {
-    fontFamily:
-      "Montserrat, proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif, sans-serif",
     lineHeight: "31px",
     fontSize: "26px",
     fontStyle: "normal",
-    letterSpacing: "0.2em",
+    letterSpacing: "0.1em",
   },
   body: {
-    fontFamily:
-      "Montserrat, proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif, sans-serif",
     lineHeight: "24px",
     fontSize: "16px",
     fontStyle: "normal",
@@ -29,21 +25,17 @@ const styles = {
   container: { margin: "12% 0px", padding: "0px  4%" },
   container1: { margin: "4% 0px", padding: "0px  5%" },
   heading1: {
-    fontFamily:
-      "Montserrat, proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif, sans-serif",
     lineHeight: "31px",
     fontSize: "26px",
     fontStyle: "normal",
-    letterSpacing: "0.2em",
+    letterSpacing: "0.1em",
     textTransform: "capitalize",
   },
   heading2: {
-    fontFamily:
-      "Montserrat, proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif, sans-serif",
     lineHeight: "31px",
     fontSize: "26px",
     fontStyle: "normal",
-    letterSpacing: "0.2em",
+    letterSpacing: "0.1em",
     textTransform: "capitalize",
     color: "white",
   },
