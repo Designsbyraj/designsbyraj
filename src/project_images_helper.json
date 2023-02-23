@@ -18,7 +18,8 @@
     "Dilworth Powder Room",
     "BCC Bar:Lounge",
     "Weddington Master Bedroom",
-    "Ballantyne home office"
+    "Ballantyne home office",
+    "Myers Park Living Room"
   ],
   "Ballantyne Living Room": [
     "home-design1.jpeg",
@@ -125,5 +126,14 @@
     "IMG_6892.jpg",
     "IMG_6897.jpg",
     "IMG_6898.jpg"
+  ],
+  "Myers Park Living Room":[
+    "IMG_0595.jpg",
+    "IMG_0596.jpg",
+    "IMG_0597.jpg",
+    "IMG_0601.jpg",
+    "IMG_0604.jpg",
+    "IMG_0605.jpg",
+    "IMG_0782.jpg"
   ]
 }
