@@ -12,7 +12,6 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import OurWork from "./OurWork_Home";
 import Reviews from "../../Reviews_helper.json"
-import video from "../../assets/homevideo.mp4";
 
 
 function App() {

@@ -19,7 +19,8 @@
     "BCC Bar:Lounge",
     "Weddington Master Bedroom",
     "Ballantyne home office",
-    "Myers Park Living Room"
+    "Myers Park Living Room",
+    "Myers Park Guest Bedroom"
   ],
   "Ballantyne Living Room": [
     "home-design1.jpeg",
@@ -134,6 +135,17 @@
     "IMG_0601.jpg",
     "IMG_0604.jpg",
     "IMG_0605.jpg",
-    "IMG_0782.jpg"
+    "IMG_0782.jpg",
+    "IMG_0609.mp4",
+    "IMG_0611.mp4",
+    "IMG_0613.mp4"
+  ],
+  "Myers Park Guest Bedroom":[
+    "IMG_0627.jpg",
+    "IMG_0628.jpg",
+    "IMG_0629.jpg",
+    "IMG_0630.mp4",
+    "IMG_0631.mp4",
+    "IMG_0636.jpg"
   ]
 }
